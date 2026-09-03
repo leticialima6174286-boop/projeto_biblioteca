@@ -30,8 +30,8 @@ public class Aluno extends Usuario {
         System.out.println("Nome: " + getNome());
         System.out.println("CPF: " + getCpf());
         System.out.println("Email: " + getEmail());
-        System.out.println("Curso: " + curso);
-        System.out.println("Turma: " + turma);
+        System.out.println("Curso: " + getCurso);
+        System.out.println("Turma: " + getTurma);
         System.out.println();
     }
 }

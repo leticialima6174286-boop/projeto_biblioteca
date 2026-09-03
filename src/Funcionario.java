@@ -20,7 +20,7 @@ public class Funcionario extends Usuario {
         System.out.println("Nome: " + getNome());
         System.out.println("CPF: " + getCpf());
         System.out.println("Email: " + getEmail());
-        System.out.println("Cargo: " + cargo);
+        System.out.println("Cargo: " + getCargo);
         System.out.println();
     }
 }
